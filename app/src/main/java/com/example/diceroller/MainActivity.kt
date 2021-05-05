@@ -23,8 +23,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         val dice = Dice(6)
-        val diceRoll = dice.roll()
-        val diceRoll2 = dice.roll()
+        var diceRoll = dice.roll()
+        var diceRoll2 = dice.roll()
+        //diceRoll = 600000000
+        //diceRoll2 = 600000000
 
         val diceImage: ImageView = this.findViewById(R.id.imageView)
 
